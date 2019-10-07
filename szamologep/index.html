@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Egyszerű Számológép</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <table>
+                <tr><td>Első szám:</td><td><input type="number" id="elso" /></td></tr>
+                <tr><td>Második szám: </td><td><input type="number" id="masodik" /></td></tr>
+                <tr><td>Eredmény: </td><td><input type="number" id="eredmeny" /></td></tr>
+            </table>
+            <input type="button" value="Összeadás" onclick="osszead()" />
+            <input type="button" value="Kivonás" onclick="kivonas(2)" />
+            <input type="button" value="Szorzás" onclick="szorzas()" />
+            <input type="button" value="Osztás" onclick="osztas()" />
+        </fieldset>
+    </form>
+    <script src="gyak.js"></script>
+    
+</body>
+</html>
